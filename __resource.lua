@@ -1,7 +1,5 @@
 resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
-
-description 'ESX Extra Items'
-
+description 'ESX Extra Items, Modified and Improved By Alv!'
 version '1.0.0'
 
 client_scripts {
@@ -21,6 +19,6 @@ server_scripts {
 	'server/main.lua'
 }
 
---dependencies {
---	't0sic_loadingbar'
---}
+dependencies {
+	'es_extended'
+}
